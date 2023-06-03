@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  color: #FF4458;
+  font-weight: 700;
+}
+
+.logo {
+  width: 30px;
+  object-fit: contain;
+  padding: 8px 5px;
+}
+
+.slide-pic {
+  width: 100%;
+}

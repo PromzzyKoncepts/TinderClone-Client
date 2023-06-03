@@ -1,0 +1,61 @@
+.swipe-btns {
+  display: flex;
+  bottom: 12vh;
+  width: 100%;
+  position: fixed;
+  /* border-image-slice: 1; */
+  justify-content: space-evenly;
+  
+}
+.swipe-btns .MuiIconButton-root {
+  background-color: #00000048;
+  /* box-shadow: 0 10px 53px rgba(0, 0, 0, 0.3); */
+  
+  /* border-image-source: linear-gradient(to left, #00C853, #B2FF59);; */
+}
+
+.btn {
+  font-size: 15px;
+  /* color: #fff;
+  background: linear-gradient(to left, #00C853, #B2FF59);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  border-radius: 100%;
+  padding: 8px;
+}
+
+.btn:hover {
+  font-size: 25px;
+  transition: all 0.5s ease-in-out;
+}
+
+.replay {
+  color: #FCC950;
+  border: 1px solid #FCC950;
+}
+
+.close {
+  color: #EB2C65;
+  padding: 12px;
+  border: 1px solid #EB2C65;
+}
+
+.star {
+  color: #36AEFB;
+  border: 1px solid #36AEFB;
+  
+}
+
+.like {
+  color: #52F8BF;
+  padding: 12px;
+  border: 1px solid #52F8BF;
+  
+}
+
+.flash {
+  color: #BE15DD;
+  border: 1px solid #BE15DD;
+
+}
