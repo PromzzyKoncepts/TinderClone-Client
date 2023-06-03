@@ -1,0 +1,44 @@
+.person-details {
+  color: white;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  background-size: cover;
+  width: 600px;
+  /* object-fit: contain; */
+  max-width: 85vw;
+  height: 70vh;
+  padding: 20px;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 10px #000;
+  /* background-position: center; */
+  border-radius: 10px;
+  box-shadow: inset 0px -100px 30px -20px #000000f1;;
+}
+
+.person-details p {
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.card .person-details {
+  position: absolute;
+  bottom: 10%;
+  margin-top: -50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10vh; */
+}
+
+.swipe {
+  position: absolute;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
